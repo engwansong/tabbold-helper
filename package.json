@@ -1,0 +1,20 @@
+{
+  "name": "tabbold-helper",
+  "version": "0.24.2",
+  "private": true,
+  "description": "The Tabbold helper: saves Tabbold's notes and sessions as Markdown in a folder you choose.",
+  "license": "MIT",
+  "homepage": "https://tabbold.ewsme.com",
+  "type": "module",
+  "workspaces": [
+    "bridge"
+  ],
+  "scripts": {
+    "build": "npm run build -w bridge",
+    "test": "npm test -w bridge",
+    "typecheck": "npm run typecheck -w bridge"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
